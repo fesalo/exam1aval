@@ -8,3 +8,4 @@
 8. sed 's/Vicente/Pepe/g' Alumnos.txt
 9. grep -w  201[0-9] Alumnos.txt
 10. grep J Alumnos.txt | awk '{print $1" " $2}'|sort -u
+11. cat du.txt |grep -v K|sort -n| awk '{print $2}'|tail -n3
