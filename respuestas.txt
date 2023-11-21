@@ -1,0 +1,4 @@
+1. mkdir examen
+2. cd examen
+3. grep SI Alumnos.txt | wc -l >> si.txt
+4. 
