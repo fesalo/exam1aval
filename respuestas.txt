@@ -5,4 +5,5 @@
 5. mv si.txt  si
 6. cat Alumnos.txt | awk '{print $1 " " $2 "-" $5}' | tail -n47
 7. grep Gonz Alumnos.txt| grep lez Alumnos.txt |wc -l
-8. 
+8. sed 's/Vicente/Pepe/g' Alumnos.txt
+9. 
